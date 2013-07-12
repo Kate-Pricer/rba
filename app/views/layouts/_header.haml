@@ -1,0 +1,19 @@
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+    .container
+      %button.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.brand{:href => ""} RBA
+      .nav-collapse.collapse
+        %p.navbar-text.pull-right
+          Logged in as
+          %a.navbar-link{:href => "#"} Username
+        %ul.nav
+          %li
+            =link_to "Run Test", root_path
+          / %li
+          /   =link_to "About", about_path
+          / %li
+          /   =link_to "Contact", contact_path

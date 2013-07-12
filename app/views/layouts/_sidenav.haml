@@ -1,0 +1,56 @@
+.span4.well.sidebar-nav
+	%form
+		%fieldset
+		%legend Test RBA
+	
+		%label User
+		%select#tselect
+			%option User 1
+			%option User 2
+			%option User 3
+			%option User 4
+			%option User 5
+		
+		%label Location
+		%select#bselect.input-medium.bfh-countries.en{"data-country" => "US"}
+		
+		%label IP Address
+		%select#cselect
+			%option IP 1
+			%option IP 2
+			%option IP 3
+			%option IP 4
+			%option IP 5
+		
+		%label Time
+		%select#dselect.input-medium.bfh-timezones{"data-country" => "US"}
+		
+		%label Browser
+		%select#fselect
+			%option Google Chrome
+			%option Firefox	
+			%option Internet Explorer
+			%option Opera
+			%option Safari
+			%option Maxthon	
+			%option RockMelt
+			%option SeaMonkey
+			%option Deepnet Explorer
+			%option Avant Browser
+		
+		%label OS Verison
+		%select#aselect
+			%option System 2.0
+			%option System 3.0
+			%option System 3.1
+			%option System 3.2
+			%option System 3.3
+			%option System 4.0
+			%option System 4.1
+			%option System 4.2
+			%option System 4.4
+
+		%span.help-block Ready To Begin The RBA Test?
+		%button.btn.btn-success{:type => "submit"} Submit
+
+
