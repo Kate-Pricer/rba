@@ -12,6 +12,22 @@
  *= require_tree .
  */
 
+#sidebarnav.affix {
+  top: 50px;
+}
+.blu
+{
+	color:#36aee1 !important;
+	font-weight: 100;
+
+}
+
+
+.dgrey
+{
+	color:#414042!important;
+
+}
 body
 	{
 		margin:0px;
@@ -39,7 +55,9 @@ footer
 	position: fixed;
 }
 
-
+li{
+	list-style-type: none;
+}
 .sidebar-nav{
 	height: 100%;
 	background-color:#f5f5f5; 

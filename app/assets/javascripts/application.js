@@ -170,6 +170,7 @@
 		$("#fselect").replaceDropdown();
 		$("#aselect").replaceDropdown();
 		$("#gselect").replaceDropdown();
+		$("#rselect").replaceDropdown();
 	});
 
 
